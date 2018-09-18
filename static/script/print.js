@@ -1,1 +1,0 @@
-document.write('Hope it can run js');
