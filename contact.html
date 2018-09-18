@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="author" content="Hung Nguyen">
+        <link rel="stylesheet" type="text/css" href="static/style.css"/>
+        <title>Contact Me</title>
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a class="selected" href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1>My contacts</h1>
+
+    <div>
+        <form action="{% url 'portfolio:send_message' %}" method="post">
+            <label>Name:</label> <br>
+            <input type="text" name="name"> <br><br>
+
+            <label>Email:</label> <br>
+            <input type="email" name="email"> <br><br>
+
+            <label>Message:</label> <br>
+            <input type="text"  name="message"><br><br>
+
+            <input type="submit">
+
+        </form>
+    </div>
+
+    <br>
+
+    <div>
+        <a href="https://www.facebook.com/chroma.bluegon"><img src="static/icon/facebook.png"></a>
+
+        <a href="https://www.instagram.com/chroma.bluegon/"><img src="static/icon/instagram.png"></a>
+
+        <a href="https://www.linkedin.com/in/nthungdev"><img src="static/icon/linkedin.png"></a>
+    </div>
+
+    </body>
+</html>
