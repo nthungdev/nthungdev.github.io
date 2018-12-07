@@ -72,45 +72,36 @@ div.separator {
 main {
     padding: 0 5%;
 }
-main#index img {
-    height: 50%;
-    display: block;
+main#index figure img {
+    width: 100%;
     margin: auto;
-    /* text-align: center; */
 }
 main#index figure {
     width: 30%;
     float: left;
     text-align: center;
-    margin-right: 50px;
+    margin-right: 5%;
     display: block;
     margin-bottom: 50px;
-    /* padding: 5px; */
 }
 main#index aside {
     width: 65%;
     float: left;
     text-align: left;
     display: block;
-    margin-bottom: 50px;
-    /* padding: 5px; */
 }
 main#about figure {
     width: 50%;
-    /* width: 30%; */
     float: right;
     text-align: center;
-    /* margin-right: 50px; */
     display: block;
     margin-top: 80px;
     margin-bottom: 50px;
 }
 main#about aside {
     width: 50%;
-    /* width: 30%; */
     float: left;
     text-align: left;
-    /* margin-right: 50px; */
     display: block;
     margin-bottom: 50px;
 }
@@ -118,7 +109,6 @@ main#about img {
     width: 80%;
     display: block;
     margin: auto;
-    /* text-align: center; */
 }
 /* SECTIONS */
 h2 {
@@ -169,7 +159,6 @@ figure#internship img {
 footer {
     padding: 10px;
     text-align: center;
-    /* background-color: #383838; */
     background-color: white;
     color: black;
     margin: auto;
@@ -202,6 +191,10 @@ main#gallery {
 }
 main#gallery img {
     display: block;
-    width: 70%;
+    width: 50%;
     margin: 0 auto 20px auto;
+}
+main#gallery iframe {
+    width: 800px;
+    height: 600px;
 }
